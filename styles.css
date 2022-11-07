@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap);
+
+
+html,body,div{
+    margin: 0;
+    padding: 0;
+    font-family: barlow;
+}
+
+#wrapper{
+   margin: auto;
+   width: 1440px;
+   background-color: red;
+}
+
+
+.floatLeft{
+    float:left;
+}
+.floatRight{
+    float: right;
+}
+
+#top{
+    height: 90px;
+    color: white;
+    background-color: #005c40;
+}
+.snelmenu{
+    width: 350px;
+}
+
+#content{
+    min-height: 600px;
+    color: white;
+    background-color: red;
+}
+
+.greens {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(19, 38, 19);
+    height: 150px;
+    border: 10px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-color: #dbff4a;
+}
+
+.blues {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    width: 1259px;
+    margin-left: auto;
+}
+
+.yellows {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    height: 250px;
+    width: 1259px;
+    margin-left: auto;
+    color: red;
+}
+
+.logo{
+    background-color: white;
+    min-height: 80px;
+    padding: 5px;
+}
+
+#top ul{
+    padding-top: 35px;
+}
+
+#top ul li{
+    display: inline;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #dbff4a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight:bold;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    height: 100px;
+}
